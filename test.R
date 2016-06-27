@@ -6,4 +6,4 @@ plot(x,y)
 x2 <- x^2
 m2 <- lm(y ~ x2)
 summary(m2)
-curve(-270.5882+1.6096*x^2,add=TRUE)
+curve(-270.5882+1.6096*x^2,add=TRUE,col="red")
